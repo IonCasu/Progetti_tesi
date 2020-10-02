@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="minized_espulsore_app" location="C:/Users/39389/Desktop/Vitis_Workspace/minized_espulsore_app" platform="C:/Users/39389/Desktop/Vitis_Workspace/minized_espulsore/export/minized_espulsore/minized_espulsore.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="minized_espulsore_app_system" sysConfig="minized_espulsore" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="003a94c240ac527baeac7b3d5b604e5c">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.596302274">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.84014083" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

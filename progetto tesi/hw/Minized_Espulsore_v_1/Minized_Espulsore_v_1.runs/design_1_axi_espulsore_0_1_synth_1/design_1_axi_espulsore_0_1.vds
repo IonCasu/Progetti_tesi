@@ -1,0 +1,830 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Sep 25 12:38:16 2020
+# Process ID: 7668
+# Current directory: C:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.runs/design_1_axi_espulsore_0_1_synth_1
+# Command line: vivado.exe -log design_1_axi_espulsore_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_espulsore_0_1.tcl
+# Log file: C:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.runs/design_1_axi_espulsore_0_1_synth_1/design_1_axi_espulsore_0_1.vds
+# Journal file: C:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.runs/design_1_axi_espulsore_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_espulsore_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/39389/Desktop/Vivado_Workspace/ip_repository'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.cache/ip 
+Command: synth_design -top design_1_axi_espulsore_0_1 -part xc7z007sclg225-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg225-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6400 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 976.285 ; gain = 233.738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_espulsore_0_1' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/synth/design_1_axi_espulsore_0_1.vhd:85]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter EJECTOR_BUFF_DEPTH bound to: 32 - type: integer 
+	Parameter EJECTOR_REG_WIDTH bound to: 32 - type: integer 
+	Parameter EJECTOR_PREAMBLE_DEFAULT_VALUE bound to: 4622 - type: integer 
+INFO: [Synth 8-3491] module 'axi_espulsore_v1_0' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0.vhd:5' bound to instance 'U0' of component 'axi_espulsore_v1_0' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/synth/design_1_axi_espulsore_0_1.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'axi_espulsore_v1_0' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0.vhd:55]
+	Parameter EJECTOR_BUFF_DEPTH bound to: 32 - type: integer 
+	Parameter EJECTOR_REG_WIDTH bound to: 32 - type: integer 
+	Parameter EJECTOR_PREAMBLE_DEFAULT_VALUE bound to: 4622 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter EJECTOR_BUFF_DEPTH bound to: 32 - type: integer 
+	Parameter EJECTOR_REG_WIDTH bound to: 32 - type: integer 
+	Parameter EJECTOR_PREAMBLE_DEFAULT_VALUE bound to: 4622 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'axi_espulsore_v1_0_S00_AXI' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:7' bound to instance 'axi_espulsore_v1_0_S00_AXI_inst' of component 'axi_espulsore_v1_0_S00_AXI' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'axi_espulsore_v1_0_S00_AXI' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:93]
+	Parameter EJECTOR_BUFF_DEPTH bound to: 32 - type: integer 
+	Parameter EJECTOR_REG_WIDTH bound to: 32 - type: integer 
+	Parameter EJECTOR_PREAMBLE_DEFAULT_VALUE bound to: 4622 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+WARNING: [Synth 8-614] signal 'from_diag_reg' is read in the process but is not in the sensitivity list [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:798]
+	Parameter buff_depth bound to: 32 - type: integer 
+	Parameter bit_width bound to: 32 - type: integer 
+	Parameter preamble_default_value bound to: 4622 - type: integer 
+INFO: [Synth 8-3491] module 'modulo_espulsore' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:15' bound to instance 'espulsore1' of component 'modulo_espulsore' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:915]
+INFO: [Synth 8-638] synthesizing module 'modulo_espulsore' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:37]
+	Parameter buff_depth bound to: 32 - type: integer 
+	Parameter bit_width bound to: 32 - type: integer 
+	Parameter preamble_default_value bound to: 4622 - type: integer 
+	Parameter N bound to: 16 - type: integer 
+	Parameter reset_val bound to: 4622 - type: integer 
+INFO: [Synth 8-3491] module 'preamble_reg' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/preamble_reg.vhd:8' bound to instance 'preable_reg_inst' of component 'preamble_reg' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'preamble_reg' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/preamble_reg.vhd:23]
+	Parameter N bound to: 16 - type: integer 
+	Parameter reset_val bound to: 4622 - type: integer 
+WARNING: [Synth 8-614] signal 'reset_value' is read in the process but is not in the sensitivity list [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/preamble_reg.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'preamble_reg' (1#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/preamble_reg.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:24]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shift_register' (2#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:24]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'send_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:116]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'diag_reg' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:135]
+INFO: [Synth 8-226] default block is never used [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:154]
+INFO: [Synth 8-226] default block is never used [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:167]
+INFO: [Synth 8-3491] module 'sig_gen_1' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/sig_gen_1.vhd:7' bound to instance 'en10mhz_gen' of component 'sig_gen_1' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'sig_gen_1' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/sig_gen_1.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'sig_gen_1' (3#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/sig_gen_1.vhd:21]
+	Parameter N bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'shift_register' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:7' bound to instance 'debug_register' of component 'shift_register' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:191]
+INFO: [Synth 8-638] synthesizing module 'shift_register__parameterized2' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:24]
+	Parameter N bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'shift_register__parameterized2' (3#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/shift_register.vhd:24]
+WARNING: [Synth 8-3848] Net p_internal_sig2[0] in module/entity modulo_espulsore does not have driver. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:90]
+INFO: [Synth 8-256] done synthesizing module 'modulo_espulsore' (4#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/modulo_espulsore.vhd:37]
+INFO: [Synth 8-3491] module 'sig_gen_2' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/sig_gen_2.vhd:7' bound to instance 'enabler_espulsore' of component 'sig_gen_2' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:935]
+INFO: [Synth 8-638] synthesizing module 'sig_gen_2' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/sig_gen_2.vhd:16]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/debouncer.vhd:6' bound to instance 'deb1' of component 'debouncer' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/sig_gen_2.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/debouncer.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (5#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/debouncer.vhd:15]
+INFO: [Synth 8-3491] module 'debouncer' declared at 'c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/debouncer.vhd:6' bound to instance 'deb2' of component 'debouncer' [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/sig_gen_2.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'sig_gen_2' (6#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/src/sig_gen_2.vhd:16]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:305]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:306]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg2_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:307]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:308]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg4_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:309]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg5_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:310]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg6_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:311]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg7_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:312]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg8_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:313]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg9_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:314]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg10_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:315]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg11_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:316]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg12_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:317]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg13_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:318]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg14_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg15_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:320]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg16_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:321]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg17_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:322]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg18_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg19_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:324]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg20_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:325]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg21_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:326]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg22_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:327]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg23_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:328]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg24_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:329]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg25_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:330]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg26_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:331]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg27_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:332]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg28_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:333]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg29_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:334]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg30_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:335]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg31_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:336]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:347]
+INFO: [Synth 8-256] done synthesizing module 'axi_espulsore_v1_0_S00_AXI' (7#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0_S00_AXI.vhd:93]
+INFO: [Synth 8-256] done synthesizing module 'axi_espulsore_v1_0' (8#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ipshared/c569/hdl/axi_espulsore_v1_0.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_espulsore_0_1' (9#1) [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/synth/design_1_axi_espulsore_0_1.vhd:85]
+WARNING: [Synth 8-3331] design modulo_espulsore has unconnected port Sin
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_in
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1055.672 ; gain = 313.125
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1055.672 ; gain = 313.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1055.672 ; gain = 313.125
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1055.672 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc] for cell 'U0'
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_A0'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_A1'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_A2'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO0'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO1'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO2'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO3'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO4'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO5'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO6'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO7'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO8'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO9'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO10'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO11'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO12'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ARDUINO_IO13'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED_G'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_LED_R'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PL_SW'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AUDIO_CLK'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AUDIO_DO'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_CTS_IN_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_HOST_WAKE'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_REG_ON'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_RTS_OUT_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_RXD_IN'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BT_TXD_OUT'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'WL_HOST_WAKE'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'WL_REG_ON'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'WL_SDIO_CLK_R'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'WL_SDIO_CMD'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'WL_SDIO_D0'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'WL_SDIO_D1'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'WL_SDIO_D2'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'WL_SDIO_D3'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I2C_SCL'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'I2C_SDA'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_D0_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_D0_P'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_D1_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_D1_P'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_D2_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_D2_P'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_D3_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:133]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_D3_P'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD2_D0_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD2_D0_P'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD2_D1_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD2_D1_P'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD2_D2_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD2_D2_P'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD2_D3_N'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PMOD2_D3_P'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:162]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc:165]
+Finished Parsing XDC File [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.srcs/sources_1/bd/design_1/ip/design_1_axi_espulsore_0_1/MiniZed_Constraints_Rev1_170613.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_axi_espulsore_0_1_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_axi_espulsore_0_1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.runs/design_1_axi_espulsore_0_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.runs/design_1_axi_espulsore_0_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1158.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 1163.297 ; gain = 5.031
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1163.297 ; gain = 420.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1163.297 ; gain = 420.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.runs/design_1_axi_espulsore_0_1_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1163.297 ; gain = 420.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1163.297 ; gain = 420.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 73    
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 13    
++---Multipliers : 
+	                 5x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 72    
+	   2 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module preamble_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module shift_register 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module sig_gen_1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	                1 Bit    Registers := 3     
++---Multipliers : 
+	                 5x32  Multipliers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module shift_register__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+Module modulo_espulsore 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module debouncer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module axi_espulsore_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 9     
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design modulo_espulsore has unconnected port Sin
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_in
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design axi_espulsore_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'U0/axi_espulsore_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'U0/axi_espulsore_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/axi_espulsore_v1_0_S00_AXI_inst/\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/axi_espulsore_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/axi_espulsore_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/axi_espulsore_v1_0_S00_AXI_inst/\axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1163.297 ; gain = 420.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1163.297 ; gain = 420.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1163.297 ; gain = 420.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1178.402 ; gain = 435.855
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1182.949 ; gain = 440.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1182.949 ; gain = 440.402
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1182.949 ; gain = 440.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1182.949 ; gain = 440.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1182.949 ; gain = 440.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1182.949 ; gain = 440.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    11|
+|2     |LUT1   |     5|
+|3     |LUT2   |    53|
+|4     |LUT3   |  1035|
+|5     |LUT4   |     5|
+|6     |LUT5   |     2|
+|7     |LUT6   |   411|
+|8     |MUXF7  |   160|
+|9     |MUXF8  |    64|
+|10    |FDCE   |  2092|
+|11    |FDPE   |     6|
+|12    |FDRE   |   299|
+|13    |FDSE   |    28|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------------------+---------------------------+------+
+|      |Instance                                |Module                     |Cells |
++------+----------------------------------------+---------------------------+------+
+|1     |top                                     |                           |  4171|
+|2     |  U0                                    |axi_espulsore_v1_0         |  4171|
+|3     |    axi_espulsore_v1_0_S00_AXI_inst     |axi_espulsore_v1_0_S00_AXI |  4171|
+|4     |      enabler_espulsore                 |sig_gen_2                  |     6|
+|5     |        deb1                            |debouncer                  |     3|
+|6     |        deb2                            |debouncer_63               |     3|
+|7     |      espulsore1                        |modulo_espulsore           |  3702|
+|8     |        \diag_data_buffer[0].diag_reg   |shift_register             |    32|
+|9     |        \diag_data_buffer[10].diag_reg  |shift_register_0           |    32|
+|10    |        \diag_data_buffer[11].diag_reg  |shift_register_1           |    96|
+|11    |        \diag_data_buffer[12].diag_reg  |shift_register_2           |    32|
+|12    |        \diag_data_buffer[13].diag_reg  |shift_register_3           |    32|
+|13    |        \diag_data_buffer[14].diag_reg  |shift_register_4           |    32|
+|14    |        \diag_data_buffer[15].diag_reg  |shift_register_5           |    64|
+|15    |        \diag_data_buffer[16].diag_reg  |shift_register_6           |    32|
+|16    |        \diag_data_buffer[17].diag_reg  |shift_register_7           |    32|
+|17    |        \diag_data_buffer[18].diag_reg  |shift_register_8           |    32|
+|18    |        \diag_data_buffer[19].diag_reg  |shift_register_9           |   160|
+|19    |        \diag_data_buffer[1].diag_reg   |shift_register_10          |    32|
+|20    |        \diag_data_buffer[20].diag_reg  |shift_register_11          |    32|
+|21    |        \diag_data_buffer[21].diag_reg  |shift_register_12          |    32|
+|22    |        \diag_data_buffer[22].diag_reg  |shift_register_13          |    32|
+|23    |        \diag_data_buffer[23].diag_reg  |shift_register_14          |    64|
+|24    |        \diag_data_buffer[24].diag_reg  |shift_register_15          |    32|
+|25    |        \diag_data_buffer[25].diag_reg  |shift_register_16          |    32|
+|26    |        \diag_data_buffer[26].diag_reg  |shift_register_17          |    32|
+|27    |        \diag_data_buffer[27].diag_reg  |shift_register_18          |    96|
+|28    |        \diag_data_buffer[28].diag_reg  |shift_register_19          |    32|
+|29    |        \diag_data_buffer[29].diag_reg  |shift_register_20          |    32|
+|30    |        \diag_data_buffer[2].diag_reg   |shift_register_21          |    32|
+|31    |        \diag_data_buffer[30].diag_reg  |shift_register_22          |    32|
+|32    |        \diag_data_buffer[31].diag_reg  |shift_register_23          |    65|
+|33    |        \diag_data_buffer[3].diag_reg   |shift_register_24          |   128|
+|34    |        \diag_data_buffer[4].diag_reg   |shift_register_25          |    32|
+|35    |        \diag_data_buffer[5].diag_reg   |shift_register_26          |    32|
+|36    |        \diag_data_buffer[6].diag_reg   |shift_register_27          |    32|
+|37    |        \diag_data_buffer[7].diag_reg   |shift_register_28          |    64|
+|38    |        \diag_data_buffer[8].diag_reg   |shift_register_29          |    32|
+|39    |        \diag_data_buffer[9].diag_reg   |shift_register_30          |    32|
+|40    |        en10mhz_gen                     |sig_gen_1                  |   132|
+|41    |        preable_reg_inst                |preamble_reg               |    16|
+|42    |        \send_data_buffer[0].send_reg   |shift_register_31          |    32|
+|43    |        \send_data_buffer[10].send_reg  |shift_register_32          |    64|
+|44    |        \send_data_buffer[11].send_reg  |shift_register_33          |    64|
+|45    |        \send_data_buffer[12].send_reg  |shift_register_34          |    64|
+|46    |        \send_data_buffer[13].send_reg  |shift_register_35          |    64|
+|47    |        \send_data_buffer[14].send_reg  |shift_register_36          |    64|
+|48    |        \send_data_buffer[15].send_reg  |shift_register_37          |    64|
+|49    |        \send_data_buffer[16].send_reg  |shift_register_38          |    64|
+|50    |        \send_data_buffer[17].send_reg  |shift_register_39          |    64|
+|51    |        \send_data_buffer[18].send_reg  |shift_register_40          |    64|
+|52    |        \send_data_buffer[19].send_reg  |shift_register_41          |    64|
+|53    |        \send_data_buffer[1].send_reg   |shift_register_42          |    64|
+|54    |        \send_data_buffer[20].send_reg  |shift_register_43          |    64|
+|55    |        \send_data_buffer[21].send_reg  |shift_register_44          |    64|
+|56    |        \send_data_buffer[22].send_reg  |shift_register_45          |    64|
+|57    |        \send_data_buffer[23].send_reg  |shift_register_46          |    64|
+|58    |        \send_data_buffer[24].send_reg  |shift_register_47          |    64|
+|59    |        \send_data_buffer[25].send_reg  |shift_register_48          |    64|
+|60    |        \send_data_buffer[26].send_reg  |shift_register_49          |    64|
+|61    |        \send_data_buffer[27].send_reg  |shift_register_50          |    64|
+|62    |        \send_data_buffer[28].send_reg  |shift_register_51          |    64|
+|63    |        \send_data_buffer[29].send_reg  |shift_register_52          |    64|
+|64    |        \send_data_buffer[2].send_reg   |shift_register_53          |    64|
+|65    |        \send_data_buffer[30].send_reg  |shift_register_54          |    65|
+|66    |        \send_data_buffer[31].send_reg  |shift_register_55          |    96|
+|67    |        \send_data_buffer[3].send_reg   |shift_register_56          |    64|
+|68    |        \send_data_buffer[4].send_reg   |shift_register_57          |    64|
+|69    |        \send_data_buffer[5].send_reg   |shift_register_58          |    64|
+|70    |        \send_data_buffer[6].send_reg   |shift_register_59          |    64|
+|71    |        \send_data_buffer[7].send_reg   |shift_register_60          |    64|
+|72    |        \send_data_buffer[8].send_reg   |shift_register_61          |    64|
+|73    |        \send_data_buffer[9].send_reg   |shift_register_62          |    64|
++------+----------------------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1182.949 ; gain = 440.402
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1182.949 ; gain = 332.777
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1182.949 ; gain = 440.402
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.096 . Memory (MB): peak = 1195.023 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 235 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1195.023 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+114 Infos, 109 Warnings, 54 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1195.023 ; gain = 726.656
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1195.023 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.runs/design_1_axi_espulsore_0_1_synth_1/design_1_axi_espulsore_0_1.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_espulsore_0_1, cache-ID = 457be3a6f920a535
+INFO: [Coretcl 2-1174] Renamed 72 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1195.023 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/39389/Desktop/Vivado_Workspace/Minized_Espulsore_v_1/Minized_Espulsore_v_1.runs/design_1_axi_espulsore_0_1_synth_1/design_1_axi_espulsore_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_espulsore_0_1_utilization_synth.rpt -pb design_1_axi_espulsore_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 25 12:39:12 2020...

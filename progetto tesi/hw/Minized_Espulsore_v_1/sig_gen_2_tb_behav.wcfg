@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sig_gen_2_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sig_gen_2_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="209190fs"></ZoomStartTime>
+      <ZoomEndTime time="232051fs"></ZoomEndTime>
+      <Cursor1Time time="213000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="277"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/sig_gen_2_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sig_gen_2_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sig_gen_2_tb/i_en1" type="logic">
+      <obj_property name="ElementShortName">i_en1</obj_property>
+      <obj_property name="ObjectShortName">i_en1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sig_gen_2_tb/i_en2" type="logic">
+      <obj_property name="ElementShortName">i_en2</obj_property>
+      <obj_property name="ObjectShortName">i_en2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sig_gen_2_tb/o_en" type="logic">
+      <obj_property name="ElementShortName">o_en</obj_property>
+      <obj_property name="ObjectShortName">o_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sig_gen_2_tb/uut/clock_counts" type="other">
+      <obj_property name="ElementShortName">clock_counts</obj_property>
+      <obj_property name="ObjectShortName">clock_counts</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sig_gen_2_tb/uut/enable_counts" type="other">
+      <obj_property name="ElementShortName">enable_counts</obj_property>
+      <obj_property name="ObjectShortName">enable_counts</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,7 @@
+/*minized_espulsore*/
+the_ROM_image:
+{
+  [bootloader]<minized_espulsore/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

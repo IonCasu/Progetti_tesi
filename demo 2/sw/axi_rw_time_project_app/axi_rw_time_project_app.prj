@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="axi_rw_time_project_app" location="C:/Users/39389/Desktop/Vitis_Workspace/axi_rw_time_project_app" platform="C:/Users/39389/Desktop/Vitis_Workspace/axi_rw_time_project/export/axi_rw_time_project/axi_rw_time_project.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="axi_rw_time_project_app_system" sysConfig="axi_rw_time_project" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="c27a3800034032882eb807aa7e11c485">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.886882160">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.732650512" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

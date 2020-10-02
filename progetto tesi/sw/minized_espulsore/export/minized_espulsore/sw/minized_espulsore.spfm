@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="minized_espulsore"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+minized_espulsore
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="minized_espulsore">
+        <sdx:configuration sdx:name="minized_espulsore"
+                           sdx:displayName="minized_espulsore"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>minized_espulsore</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="minized_espulsore/boot/minized_espulsore.bif"
+                            sdx:readme="minized_espulsore/boot/generic.readme"
+                            sdx:qemuArguments="minized_espulsore/qemu/qemu_args.txt"
+                            />
+                <sdx:image sdx:name="standalone_domain"
+                            sdx:bif="minized_espulsore/boot/minized_espulsore.bif"
+                            sdx:readme="minized_espulsore/boot/generic.readme"
+                            sdx:qemuArguments="minized_espulsore/standalone_domain/qemu/qemu_args.txt"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on ps7_cortexa9_0"
+                                sdx:cpuType="cortex-a9"
+                                sdx:cpuInstance="ps7_cortexa9_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="minized_espulsore/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="minized_espulsore/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="minized_espulsore/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

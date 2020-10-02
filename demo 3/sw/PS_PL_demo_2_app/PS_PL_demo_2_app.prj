@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="PS_PL_demo_2_app" location="C:/Users/39389/Desktop/Vitis_Workspace/PS_PL_demo_2_app" platform="C:/Users/39389/Desktop/Vitis_Workspace/PL_PS_demo_2/export/PL_PS_demo_2/PL_PS_demo_2.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="PS_PL_demo_2_app_system" sysConfig="PL_PS_demo_2" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="b1795418fdbd5e36ee735ceadd88bbea">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.746922109" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.2069330583" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
